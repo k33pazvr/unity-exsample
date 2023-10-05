@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,8 +6,7 @@ using Photon.VR;
 using TMPro;
 public class NameScript : MonoBehaviour
 {
-    private string LastName = "";
-    public string NameVar = "";
+    public string NameVar;
     public TextMeshPro NameText;
     private void Update()
     {
@@ -17,9 +15,6 @@ public class NameScript : MonoBehaviour
             NameVar = NameVar.Substring(0, 12);
         }
         NameText.text = NameVar;
-        if (NameVar != LastName)
-        {
-            LastName = NameVar;
-        }
+        PhotonVRManager.SetUsername(NameVar);
     }
 }

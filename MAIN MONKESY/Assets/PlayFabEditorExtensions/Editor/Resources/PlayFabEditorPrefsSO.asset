@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DevAccountEmail: leon.vr71@gmail.com
   DevAccountToken: yg1emp8izypwarsg8fcquyhmrqjm1ewikza1rdyxfc51b1breowbqtie4ea5yq56y5wpwdfps3jynmfbjs9i3byk3k9iwn3czkby1gcog59kojcu1z597n4odphh5sed4fhhkg7bz8pu9ap38nu8guq4otw83krfzmk9n5fyj4z8cn8od7pd9fytg5es44pgz7zjk4je
-  SelectedStudio: My Game Studio
+  SelectedStudio: Main Monkeys
   SdkPath: Assets/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 
