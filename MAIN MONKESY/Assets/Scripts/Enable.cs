@@ -4,11 +4,22 @@ using UnityEngine;
 
 public class Enable : MonoBehaviour
 {
-    [Header("Set this to the gameObject you want to Enable")]
-    public GameObject ObjectToEnable;
+    public GameObject objectEnable;
 
-    private void OnTriggerEnter(Collider other)
+
+    public void OnTriggerEnter()
     {
-        ObjectToEnable.SetActive(true);
+
+        new WaitForSeconds(1);
+        objectEnable.SetActive(true);
     }
+
+
+    public void OnTriggerExit()
+    {
+        new WaitForSeconds(1);
+        objectEnable.SetActive(true);
+    }
+
+
 }

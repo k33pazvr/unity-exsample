@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Trigger
   - HandTag
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Trigger
-  - Left Hand
-  - Right Hand
+  - 
+  - walkthrough
+  - 
   - 
   - 
   - 

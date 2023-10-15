@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class Disable : MonoBehaviour
 {
-    [Header("Set this to the gameObject you want to Disable")]
-    public GameObject ObjectToDisable;
 
-    private void OnTriggerEnter(Collider other)
+    public GameObject objectDisable;
+
+
+    void OnTriggerEnter()
     {
-        ObjectToDisable.SetActive(false);
+        new WaitForSeconds(1);
+        objectDisable.SetActive(false);
+    }
+
+
+    void OnTriggerExit()
+    {
+        new WaitForSeconds(1);
+        objectDisable.SetActive(false);
     }
 }

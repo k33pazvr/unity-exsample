@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: 32e0b06465d9c724bbc795dbdefeed13
+guid: ddf73818c2e1a604b8e690b2f6fc29cc
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - ptView: {fileID: 7780029385335637883, guid: 8b86c5cabe0350c4aba3e1c772a16a98, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
