@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 46f12eb55cd07ff44a9fa62651f5afe0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.994035
+      value: 6.43
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 46f12eb55cd07ff44a9fa62651f5afe0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -63,6 +63,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5a6d1a7fd33f264daf17bf2d94cfafe, type: 2}
+    - target: {fileID: -1461304994638716399, guid: 46f12eb55cd07ff44a9fa62651f5afe0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1bab66c10ed1ea148ad7d9cf71e7f348, type: 2}
     - target: {fileID: 574330708792252918, guid: 46f12eb55cd07ff44a9fa62651f5afe0, type: 3}
       propertyPath: m_LocalScale.z
       value: 7.3440313
@@ -73,7 +77,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 46f12eb55cd07ff44a9fa62651f5afe0, type: 3}
       propertyPath: m_Name
-      value: horrorbanana
+      value: horrorbanana Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3163226146608637661, guid: 46f12eb55cd07ff44a9fa62651f5afe0, type: 3}
       propertyPath: m_Materials.Array.data[0]
